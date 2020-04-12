@@ -81,7 +81,8 @@ namespace Serendipityx
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label_status.Text += "Welcome!\nSerendipity made by Github.com / iirh";
+            label_status.Text += "Welcome!\nSerendipity made by Github.com / iirh" + Environment.NewLine;
+            label_status.Text += "Discord: root#1418";
             FadeIn(this, 100);
         }
 
